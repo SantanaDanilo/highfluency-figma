@@ -37,7 +37,6 @@
     padding: 4.375rem 1.875rem;
     font-family: 'Open Sans', sans-serif;
     width: 90%;
-    display: none;
 }
 
 .inativo {
@@ -48,7 +47,6 @@
 .ativo {
     right: 0;
     transition: .5s;
-    display: inherit;
 }
 
 .menu__lista {
