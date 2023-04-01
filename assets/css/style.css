@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans:wght@400;600;700&display=swap');
+@import url("./header.css");
+@import url("./cadastro.css");
+@import url("./sobre.css");
+@import url("./razao.css");
+@import url("./footer.css");
+
+:root {
+    --cor-do-fundo: #FFF9EA;
+    --azul-escuro: #09192C;
+    --azul-claro: #4747D9;
+    --preto: #232323;
+    --branco: #FFFFFF;
+    --verde: #32E3B5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--preto);
+    position: relative;
+}
+
+main,
+footer {
+    padding: 2.5rem 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    main,
+    footer {
+        padding: 2.5rem 3.125rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    
+}
