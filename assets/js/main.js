@@ -7,4 +7,3 @@ if(menuHamburguer.classList.contains("desgiro") || menuDiv.classList.contains("i
         menuDiv.classList.toggle("ativo");
     })
 }
-

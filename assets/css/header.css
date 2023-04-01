@@ -12,7 +12,7 @@
 
 .desgiro {
     transform: rotate(0deg);
-    transition: .5s
+    transition: .5s;
 }
 
 .rotacao {
@@ -42,11 +42,13 @@
 .inativo {
     right: -90%;
     transition: .5s;
+    display: none;
 }
 
 .ativo {
     right: 0;
     transition: .5s;
+    display: block;
 }
 
 .menu__lista {
