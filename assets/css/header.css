@@ -48,7 +48,7 @@
 .ativo {
     right: 0;
     transition: .5s;
-    display: block;
+    display: inherit;
 }
 
 .menu__lista {
